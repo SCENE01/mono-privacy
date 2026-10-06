@@ -22,7 +22,7 @@ Effective date: October 6, 2026
 |---|---|---|---|
 | Sign-in | Account identifier, email address (if provided), name or nickname (if provided), sign-in method (Apple/Google/Kakao) | When you sign in | Verifying your account, syncing entries, linking and deleting accounts |
 | Entries | Text, photos, videos, audio recordings, captions, entry time, capture time of photos/videos, collage edit data | When you save an entry. **Sent to the server only if you are signed in** | Storing, syncing, and displaying your entries |
-| Ads | Advertising identifier (IDFA, if you allow tracking), device and app usage information | When an ad is shown | Serving ads and measuring performance (collected by Google AdMob) |
+| Ads | Advertising identifier (IDFA, if you allow tracking), device and app usage information, approximate location estimated from your IP address (country/region level) | When an ad is shown | Serving ads and measuring performance (collected by Google AdMob) |
 | Usage statistics (anonymous) | Random per-device ID, app launches and session start/end, screens visited (feed, calendar, detail, settings), type of entry created/saved/edited/deleted (photo/video/audio/text/collage), whether microphone permission was granted, sign-in attempts/results and method (Apple/Google/Kakao), whether you are signed in, the type of external link (such as a widget) that opened the app, app version, OS version, device model | While you use the app | Understanding which features are used to improve the service (collected by Amplitude) |
 | Error information (crashes) | Device model, OS version, app version and build, code location and call information where the error occurred, time of occurrence, whether the app terminated abnormally | When an error or abnormal termination occurs | Finding the cause of errors and improving stability (collected by Sentry) |
 
@@ -30,7 +30,7 @@ Effective date: October 6, 2026
 - The camera, microphone, and photo library are used **only when you create an entry**. You can still use other features if you don't allow access.
 - Usage statistics **do not include the content of your entries (text, photos, videos, audio), name, email, account ID, IP address, or location**, and the advertising identifier (IDFA) is not used. The random per-device ID is not linked to you personally.
 - Error information **does not include the content of your entries (text, photos, videos, audio), screenshots, name, email, or IP address.** Communication details such as server addresses are not recorded either.
-- We do not collect device location, contacts, and the like.
+- We do not collect precise device location (GPS), contacts, and the like. However, ads (Google AdMob) estimate an approximate location (country/region level) from your IP address.
 
 ## 3. Retention period
 - **Sign-in information and entries stored on the server**: until you delete your account. When you delete your account, they are destroyed without delay (immediately, barring special circumstances).
@@ -45,7 +45,7 @@ To provide the service, processing is entrusted to the parties below and informa
 | Supabase, Inc. | Sign-in information, entries (text, photos, videos, audio) | Server, database, and file storage; sign-in processing | Australia (Sydney region) | Until account deletion |
 | Amplitude, Inc. | Usage statistics (random per-device ID, feature-use events, app/OS version, device model) | Collecting and analyzing usage statistics | United States | Until the analytics purpose is achieved (anonymous information that cannot identify individuals) |
 | Functional Software, Inc. (Sentry) | Error information (device model, OS/app version, error location) | Collecting and analyzing app errors and crashes | United States | About 90 days after collection |
-| Google LLC (AdMob) | Advertising identifier, device and app usage information | Serving ads, measuring performance, preventing abuse | United States and others | According to Google's policies |
+| Google LLC (AdMob) | Advertising identifier, device and app usage information, approximate location based on IP address | Serving ads, measuring performance, preventing abuse | United States and others | According to Google's policies |
 | Apple Inc., Google LLC, Kakao Corp. | Sign-in authentication information | Social sign-in | Each company's country of operation | According to each company's policies |
 
 When and how data is transferred: it is sent over the network (HTTPS) when you sign in and save or sync entries, when ads are shown, when you use the app (usage statistics), or when an error occurs in the app. If you do not want overseas transfers, use the app without signing in or delete your account. Usage statistics and error information are collected to improve the service and app stability and cannot be turned off in the app settings. As described above, however, they contain neither the content of your entries nor information that can identify you; if you object, please delete the app. Once you delete the app, the random per-device ID is no longer used.

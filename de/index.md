@@ -22,7 +22,7 @@ Gültig ab: 6. Oktober 2026
 |---|---|---|---|
 | Anmeldung | Konto-Kennung, E-Mail-Adresse (falls angegeben), Name oder Spitzname (falls angegeben), Anmeldemethode (Apple/Google/Kakao) | Bei der Anmeldung | Kontoprüfung, Synchronisierung der Einträge, Verknüpfung und Löschung des Kontos |
 | Einträge | Text, Fotos, Videos, Audioaufnahmen, Bildunterschriften, Zeitpunkt des Eintrags, Aufnahmezeit von Fotos/Videos, Bearbeitungsdaten von Collagen | Beim Speichern eines Eintrags. **Nur bei Anmeldung an den Server gesendet** | Speichern, Synchronisieren und Anzeigen deiner Einträge |
-| Werbung | Werbe-ID (IDFA, wenn du Tracking erlaubst), Nutzungsinformationen zu Gerät und App | Wenn Werbung angezeigt wird | Auslieferung von Werbung und Erfolgsmessung (erhoben von Google AdMob) |
+| Werbung | Werbe-ID (IDFA, wenn du Tracking erlaubst), Nutzungsinformationen zu Gerät und App, anhand deiner IP-Adresse geschätzter ungefährer Standort (Land-/Regionsebene) | Wenn Werbung angezeigt wird | Auslieferung von Werbung und Erfolgsmessung (erhoben von Google AdMob) |
 | Nutzungsstatistiken (anonym) | Zufällige Kennung pro Gerät, App-Starts und Sitzungsbeginn/-ende, besuchte Bildschirme (Feed, Kalender, Detail, Einstellungen), Art des erstellten/gespeicherten/bearbeiteten/gelöschten Eintrags (Foto/Video/Audio/Text/Collage), ob die Mikrofonerlaubnis erteilt wurde, Anmeldeversuche/-ergebnisse und Methode (Apple/Google/Kakao), ob du angemeldet bist, Art des externen Links (z. B. Widget), der die App geöffnet hat, App-Version, Systemversion, Gerätemodell | Während du die App nutzt | Verstehen, welche Funktionen genutzt werden, um den Dienst zu verbessern (erhoben von Amplitude) |
 | Fehlerinformationen (Abstürze) | Gerätemodell, Systemversion, App-Version und Build, Codestelle und Aufrufinformationen des Fehlers, Zeitpunkt, ob die App abnormal beendet wurde | Bei einem Fehler oder abnormalen Beenden | Ursachen von Fehlern finden und die Stabilität verbessern (erhoben von Sentry) |
 
@@ -30,7 +30,7 @@ Gültig ab: 6. Oktober 2026
 - Kamera, Mikrofon und Fotomediathek werden **nur genutzt, wenn du einen Eintrag erstellst**. Auch ohne Erlaubnis bleiben die anderen Funktionen nutzbar.
 - Die Nutzungsstatistiken **enthalten weder den Inhalt deiner Einträge (Text, Fotos, Videos, Audio) noch Name, E-Mail, Konto-ID, IP-Adresse oder Standort**, und die Werbe-ID (IDFA) wird nicht verwendet. Die zufällige Kennung pro Gerät wird nicht mit dir persönlich verknüpft.
 - Die Fehlerinformationen **enthalten weder den Inhalt deiner Einträge (Text, Fotos, Videos, Audio) noch Bildschirmfotos, Name, E-Mail oder IP-Adresse.** Auch Kommunikationsdaten wie Serveradressen werden nicht aufgezeichnet.
-- Wir erheben weder den Gerätestandort noch Kontakte o. Ä.
+- Wir erheben weder den genauen Gerätestandort (GPS) noch Kontakte o. Ä. Die Werbung (Google AdMob) schätzt jedoch anhand deiner IP-Adresse einen ungefähren Standort (Land-/Regionsebene).
 
 ## 3. Speicherdauer
 - **Anmeldedaten und auf dem Server gespeicherte Einträge**: bis du dein Konto löschst. Beim Löschen werden sie unverzüglich (sofort, sofern keine besonderen Umstände vorliegen) vernichtet.
@@ -45,7 +45,7 @@ Zur Erbringung des Dienstes wird die Verarbeitung wie unten angegeben übertrage
 | Supabase, Inc. | Anmeldedaten, Einträge (Text, Fotos, Videos, Audio) | Speicherung von Server, Datenbank und Dateien; Anmeldeverarbeitung | Australien (Region Sydney) | Bis zur Kontolöschung |
 | Amplitude, Inc. | Nutzungsstatistiken (zufällige Kennung pro Gerät, Funktionsnutzungsereignisse, App-/Systemversion, Gerätemodell) | Erhebung und Analyse von Nutzungsstatistiken | USA | Bis der Analysezweck erreicht ist (anonyme Daten, die keine Personen identifizieren) |
 | Functional Software, Inc. (Sentry) | Fehlerinformationen (Gerätemodell, System-/App-Version, Fehlerort) | Erhebung und Analyse von App-Fehlern und Abstürzen | USA | Etwa 90 Tage nach der Erhebung |
-| Google LLC (AdMob) | Werbe-ID, Nutzungsinformationen zu Gerät und App | Werbeauslieferung, Erfolgsmessung, Missbrauchsprävention | USA u. a. | Gemäß den Richtlinien von Google |
+| Google LLC (AdMob) | Werbe-ID, Nutzungsinformationen zu Gerät und App, auf der IP-Adresse basierender ungefährer Standort | Werbeauslieferung, Erfolgsmessung, Missbrauchsprävention | USA u. a. | Gemäß den Richtlinien von Google |
 | Apple Inc., Google LLC, Kakao Corp. | Authentifizierungsdaten der Anmeldung | Anmeldung über soziale Konten | Betriebsland des jeweiligen Unternehmens | Gemäß den Richtlinien des jeweiligen Unternehmens |
 
 Zeitpunkt und Art der Übermittlung: Die Daten werden über das Netzwerk (HTTPS) gesendet, wenn du dich anmeldest und Einträge speicherst oder synchronisierst, wenn Werbung angezeigt wird, wenn du die App nutzt (Nutzungsstatistiken) oder wenn in der App ein Fehler auftritt. Wenn du keine Übermittlung ins Ausland möchtest, nutze die App ohne Anmeldung oder lösche dein Konto. Nutzungsstatistiken und Fehlerinformationen werden zur Verbesserung des Dienstes und der App-Stabilität erhoben und lassen sich in den App-Einstellungen nicht ausschalten. Sie enthalten jedoch, wie oben beschrieben, weder den Inhalt deiner Einträge noch Daten, die dich identifizieren; wenn du das nicht möchtest, lösche bitte die App. Sobald du die App löschst, wird die zufällige Kennung pro Gerät nicht mehr verwendet.
