@@ -1,5 +1,7 @@
 # Mono 개인정보처리방침
 
+**한국어** · [English](en/) · [日本語](ja/) · [简体中文](zh-Hans/) · [繁體中文](zh-Hant/) · [Español](es/) · [Français](fr/) · [Deutsch](de/) · [Português (Brasil)](pt-BR/)
+
 모노(Mono)(이하 "회사")는 이용자의 개인정보를 소중히 다루며 「개인정보 보호법」 등 관련 법령을 지킵니다. 이 방침은 Mono 앱(iOS)에서 어떤 정보를 어떻게 다루는지 설명합니다.
 
 시행일: 2026년 10월 6일
