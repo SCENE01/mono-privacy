@@ -79,7 +79,7 @@ Das Unternehmen bietet den Dienst nicht für Kinder unter 14 Jahren an und erheb
 ## 11. Datenschutzverantwortlicher und Kontakt
 - Firma: Mono (모노)
 - Vertreter / Datenschutzverantwortlicher: Lee Jinsun (이진선)
-- Kontakt: monodiary06@gmail.com
+- Kontakt: diary.mono06@gmail.com
 
 Für Meldungen von Datenschutzverletzungen oder Beratung kannst du dich auch an folgende Stellen (in Korea) wenden.
 - Meldestelle für Verletzungen personenbezogener Daten (privacy.kisa.or.kr, Rufnummer 118)

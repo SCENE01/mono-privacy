@@ -79,7 +79,7 @@ La Société ne fournit pas le service aux enfants de moins de 14 ans et ne coll
 ## 11. Responsable de la protection des données et contact
 - Raison sociale : Mono (모노)
 - Représentant / Responsable de la protection des données : Lee Jinsun (이진선)
-- Contact : monodiary06@gmail.com
+- Contact : diary.mono06@gmail.com
 
 Pour signaler une atteinte à la vie privée ou demander conseil, vous pouvez aussi contacter les organismes suivants (en Corée).
 - Centre de signalement des atteintes aux informations personnelles (privacy.kisa.or.kr, composer le 118)
