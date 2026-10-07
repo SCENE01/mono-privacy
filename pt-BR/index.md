@@ -79,7 +79,7 @@ A Empresa não presta o serviço a menores de 14 anos e não coleta intencionalm
 ## 11. Responsável pela privacidade e contato
 - Razão social: Mono (모노)
 - Representante / Responsável pela privacidade: Lee Jinsun (이진선)
-- Contato: nadajinny@gmail.com
+- Contato: monodiary06@gmail.com
 
 Você também pode contatar as seguintes organizações (na Coreia) para denunciar violações de privacidade ou obter orientação.
 - Centro de Denúncia de Violação de Informações Pessoais (privacy.kisa.or.kr, discar 118)

@@ -79,7 +79,7 @@ The Company does not provide the service to children under 14 and does not knowi
 ## 11. Privacy officer and contact
 - Business name: Mono (모노)
 - Representative / Privacy officer: Lee Jinsun (이진선)
-- Contact: nadajinny@gmail.com
+- Contact: monodiary06@gmail.com
 
 You can also contact the following organizations about privacy violations or consultations (in Korea).
 - Personal Information Infringement Report Center (privacy.kisa.or.kr, dial 118)
