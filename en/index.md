@@ -6,12 +6,12 @@
 
 Mono (the "Company") values your personal information and complies with applicable laws, including the Personal Information Protection Act of Korea. This policy explains what information the Mono app (iOS) handles and how.
 
-Effective date: October 6, 2026
+Effective date: October 9, 2026
 
 ## 1. At a glance
-- You can use Mono **without signing in**. If you don't sign in, your entries are stored **only on your device** and are not sent to the Company's servers.
-- If you **sign in** with Apple, Google, or Kakao, a copy of your entries (text, photos, videos, audio recordings) is stored on the Company's servers, so you can view them on another device or when you switch devices.
-- You can **delete your account** at any time in the app. Deleting it erases your entries and account information from the servers.
+- You can use Mono **without registering**. Even as a guest, an **anonymous account** (with no name or email) is created on the Company's servers, and your entries (text, photos, videos, audio recordings) are stored in it.
+- If you **link** Apple, Google, or Kakao, the sign-in method is attached to the same account and your entries carry over as they are, so you can view them on another device or when you switch devices. The device keeps a copy loaded from the server; entries that could not be uploaded wait on the device and are uploaded again.
+- You can **delete your account** at any time in the app (guests included). The account is locked immediately, and after 7 days your entries and account information are erased from the servers.
 - The app shows ads (Google AdMob). Personalized ads require your consent (tracking permission).
 - To understand which features are used, we collect **anonymous usage statistics** (app launches, screens visited, the type of entry saved, etc.). They do not include the content of your entries and are not linked to your name or email.
 - If the app **crashes**, we collect error information (device model, OS and app version, where the error occurred) to find the cause. **It does not include your entries, name, or email.**
@@ -20,14 +20,14 @@ Effective date: October 6, 2026
 
 | Category | Items | When | Purpose |
 |---|---|---|---|
-| Sign-in | Account identifier, email address (if provided), name or nickname (if provided), sign-in method (Apple/Google/Kakao) | When you sign in | Verifying your account, syncing entries, linking and deleting accounts |
-| Entries | Text, photos, videos, audio recordings, captions, entry time, capture time of photos/videos, collage edit data | When you save an entry. **Sent to the server only if you are signed in** | Storing, syncing, and displaying your entries |
+| Account | Account identifier (including guests), email address (if provided), name or nickname (if provided), link method (guest/Apple/Google/Kakao) | When you first open the app (including as a guest) and when you link | Verifying your account, syncing entries, linking and deleting accounts |
+| Entries | Text, photos, videos, audio recordings, captions, entry time, capture time of photos/videos, collage edit data | When you save an entry. **Sent to the server** (guests included) | Storing, syncing, and displaying your entries |
 | Ads | Advertising identifier (IDFA, if you allow tracking), device and app usage information, approximate location estimated from your IP address (country/region level) | When an ad is shown | Serving ads and measuring performance (collected by Google AdMob) |
 | Usage statistics (anonymous) | Random per-device ID, app launches and session start/end, screens visited (feed, calendar, detail, settings), type of entry created/saved/edited/deleted (photo/video/audio/text/collage), whether microphone permission was granted, sign-in attempts/results and method (Apple/Google/Kakao), whether you are signed in, the type of external link (such as a widget) that opened the app, app version, OS version, device model | While you use the app | Understanding which features are used to improve the service (collected by Amplitude) |
 | Subscription / purchase | Subscription status (whether subscribed, period, trial), purchase history (product, purchase/renewal/expiry times), app-specific random ID | When you open the subscription screen, subscribe or restore, and when the app opens | Check subscription status; remove ads and provide paid features (processed by RevenueCat) |
 | Error information (crashes) | Device model, OS version, app version and build, code location and call information where the error occurred, time of occurrence, whether the app terminated abnormally | When an error or abnormal termination occurs | Finding the cause of errors and improving stability (collected by Sentry) |
 
-- Payments are processed by Apple (App Store). We **do not receive card numbers or other payment details.** RevenueCat handles subscription status checks. You can subscribe without signing in, and subscription information is not linked to your name or email.
+- Payments are processed by Apple (App Store). We **do not receive card numbers or other payment details.** RevenueCat handles subscription status checks. You can subscribe without linking an account, and subscription information is not linked to your name or email.
 - The Company does not use or sell your email or name for marketing.
 - The camera, microphone, and photo library are used **only when you create an entry**. You can still use other features if you don't allow access.
 - Usage statistics **do not include the content of your entries (text, photos, videos, audio), name, email, account ID, IP address, or location**, and the advertising identifier (IDFA) is not used. The random per-device ID is not linked to you personally.
@@ -35,23 +35,23 @@ Effective date: October 6, 2026
 - We do not collect precise device location (GPS), contacts, and the like. However, ads (Google AdMob) estimate an approximate location (country/region level) from your IP address.
 
 ## 3. Retention period
-- **Sign-in information and entries stored on the server**: until you delete your account. When you delete your account, they are destroyed without delay (immediately, barring special circumstances).
-- **Entries stored only on your device** (including for users who haven't signed in): they remain on your device and disappear when you delete the app. The Company cannot access them.
+- **Account information and entries stored on the server**: until you delete your account. When you delete it, the account is locked immediately and everything is destroyed after 7 days.
+- **Entries stored on your device**: a copy loaded from the server, which disappears when you delete the app. Entries not yet uploaded stay only on the device until they are uploaded. A guest account cannot be accessed again once the app is deleted, so if you also want your entries on the server erased, delete the account first.
 - If information must be retained under law, it is kept separately only for the required period.
 
 ## 4. Processors and overseas transfers
-To provide the service, processing is entrusted to the parties below and information is transferred overseas. You can avoid this by not signing in or by deleting your account. Ads, however, are shown regardless of whether you sign in.
+To provide the service, processing is entrusted to the parties below and information is transferred overseas. Storing data on the server is necessary to use the app, and you can have the information on the server erased by deleting your account. Ads, however, are shown unless you subscribe.
 
 | Recipient | Information transferred | Purpose | Country (location) | Retention |
 |---|---|---|---|---|
-| Supabase, Inc. | Sign-in information, entries (text, photos, videos, audio) | Server, database, and file storage; sign-in processing | Australia (Sydney region) | Until account deletion |
+| Supabase, Inc. | Account information, entries (text, photos, videos, audio) | Server, database, and file storage; sign-in processing | Australia (Sydney region) | Until 7 days after account deletion |
 | Amplitude, Inc. | Usage statistics (random per-device ID, feature-use events, app/OS version, device model) | Collecting and analyzing usage statistics | United States | Until the analytics purpose is achieved (anonymous information that cannot identify individuals) |
 | RevenueCat, Inc. | Subscription status and purchase history (product, purchase/renewal/expiry times), app-specific random ID | Verifying subscription purchases and managing subscription status | United States | Per RevenueCat's policy |
 | Functional Software, Inc. (Sentry) | Error information (device model, OS/app version, error location) | Collecting and analyzing app errors and crashes | United States | About 90 days after collection |
 | Google LLC (AdMob) | Advertising identifier, device and app usage information, approximate location based on IP address | Serving ads, measuring performance, preventing abuse | United States and others | According to Google's policies |
 | Apple Inc., Google LLC, Kakao Corp. | Sign-in authentication information | Social sign-in | Each company's country of operation | According to each company's policies |
 
-When and how data is transferred: it is sent over the network (HTTPS) when you sign in and save or sync entries, when ads are shown, when you use the app (usage statistics), or when an error occurs in the app. If you do not want overseas transfers, use the app without signing in or delete your account. Usage statistics and error information are collected to improve the service and app stability and cannot be turned off in the app settings. As described above, however, they contain neither the content of your entries nor information that can identify you; if you object, please delete the app. Once you delete the app, the random per-device ID is no longer used.
+When and how data is transferred: it is sent over the network (HTTPS) when you save or sync entries, when ads are shown, when you use the app (usage statistics), or when an error occurs in the app. If you do not want overseas transfers, delete your account. Usage statistics and error information are collected to improve the service and app stability and cannot be turned off in the app settings. As described above, however, they contain neither the content of your entries nor information that can identify you; if you object, please delete the app. Once you delete the app, the random per-device ID is no longer used.
 
 ## 5. Disclosure to third parties
 The Company does not sell or provide your personal information to third parties, except where required by law or where an investigative authority requests it through lawful procedures.
@@ -63,13 +63,13 @@ The Company does not sell or provide your personal information to third parties,
 
 ## 7. Your rights and how to exercise them
 - **View, edit, delete**: you can view, edit, and delete entries directly in the app.
-- **Delete your account**: in the app under Settings > Account. All entries, media files, and account information on the server are deleted. This cannot be undone, and entries on your device are not deleted.
-- **Withdrawing consent**: unlinking sign-in or deleting your account stops server collection of your entries. You can withdraw tracking permission in your device settings.
+- **Delete your account**: in the app under Settings > Account (guests too). The account is locked immediately and, after 7 days, all entries, media files, and account information on the server are deleted. This cannot be undone.
+- **Withdrawing consent**: deleting your account stops server collection of your entries. You can withdraw tracking permission in your device settings.
 - For requests that are hard to handle in the app, contact us below and we will handle them without delay.
 
 ## 8. Destruction of personal information
 - Personal information whose retention period has ended or whose purpose has been fulfilled is destroyed in a way that cannot be recovered.
-- Entries and media files on the server are deleted from the server when you request account deletion.
+- Entries and media files on the server are deleted 7 days after you request account deletion.
 
 ## 9. Security measures
 - Data in transit to the server is encrypted with HTTPS.
