@@ -34,5 +34,5 @@ Subscribe to Mono Premium. While subscribed, the app does not request ads.
 Choose Collage from the add (+) screen. The Basic series is free, and all other series are available to Mono Premium subscribers.
 
 ## Terms and policy
-- [Privacy Policy](../en/)
+- [Privacy Policy](../../en/)
 - [Terms of Use (Apple Standard EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
