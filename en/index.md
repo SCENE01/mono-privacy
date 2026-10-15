@@ -6,7 +6,7 @@
 
 Mono (the "Company") values your personal information and complies with applicable laws, including the Personal Information Protection Act of Korea. This policy explains what information the Mono app (iOS) handles and how.
 
-Effective date: October 9, 2026
+Effective date: October 22, 2026
 
 ## 1. At a glance
 - You can use Mono **without registering**. Even as a guest, an **anonymous account** (with no name or email) is created on the Company's servers, and your entries (text, photos, videos, audio recordings) are stored in it.
@@ -23,7 +23,7 @@ Effective date: October 9, 2026
 | Account | Account identifier (including guests), email address (if provided), name or nickname (if provided), link method (guest/Apple/Google/Kakao) | When you first open the app (including as a guest) and when you link | Verifying your account, syncing entries, linking and deleting accounts |
 | Entries | Text, photos, videos, audio recordings, captions, entry time, capture time of photos/videos, collage edit data | When you save an entry. **Sent to the server** (guests included) | Storing, syncing, and displaying your entries |
 | Ads | Advertising identifier (IDFA, if you allow tracking), device and app usage information, approximate location estimated from your IP address (country/region level) | When an ad is shown | Serving ads and measuring performance (collected by Google AdMob) |
-| Usage statistics (anonymous) | Random per-device ID, app launches and session start/end, screens visited (feed, calendar, detail, settings), type of entry created/saved/edited/deleted (photo/video/audio/text/collage), whether microphone permission was granted, sign-in attempts/results and method (Apple/Google/Kakao), whether you are signed in, the type of external link (such as a widget) that opened the app, app version, OS version, device model | While you use the app | Understanding which features are used to improve the service (collected by Amplitude) |
+| Usage statistics (anonymous) | Random per-device ID, app launches and session start/end, screens visited (feed, calendar, detail, settings), type of entry created/saved/edited/deleted (photo/video/audio/text/collage), whether microphone permission was granted, sign-in attempts/results and method (Apple/Google/Kakao), whether you are signed in, the type of external link (such as a widget) that opened the app, how the app was opened (directly, widget, or notification) and whether a notification was tapped, whether it was a fresh launch or a return from the background, the hour and weekday on your device's clock, the install channel (App Store or TestFlight), app version, OS version, device model | While you use the app | Understanding which features are used to improve the service (collected by Amplitude) |
 | Subscription / purchase | Subscription status (whether subscribed, period, trial), purchase history (product, purchase/renewal/expiry times), app-specific random ID | When you open the subscription screen, subscribe or restore, and when the app opens | Check subscription status; remove ads and provide paid features (processed by RevenueCat) |
 | Error information (crashes) | Device model, OS version, app version and build, code location and call information where the error occurred, time of occurrence, whether the app terminated abnormally | When an error or abnormal termination occurs | Finding the cause of errors and improving stability (collected by Sentry) |
 
