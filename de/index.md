@@ -6,12 +6,12 @@
 
 Mono (das „Unternehmen“) legt Wert auf deine personenbezogenen Daten und hält die geltenden Gesetze ein, einschließlich des koreanischen Gesetzes zum Schutz personenbezogener Daten. Diese Erklärung beschreibt, welche Daten die Mono-App (iOS) verarbeitet und wie.
 
-Gültig ab: 22. Oktober 2026
+Gültig ab: 26. Oktober 2026
 
 ## 1. Auf einen Blick
 - Du kannst Mono **ohne Registrierung** nutzen. Auch als Gast wird auf den Servern des Unternehmens ein **anonymes Konto** (ohne Name und E-Mail) angelegt, und deine Einträge (Text, Fotos, Videos, Audioaufnahmen) werden darin gespeichert.
 - Wenn du Apple, Google oder Kakao **verknüpfst**, wird die Anmeldemethode demselben Konto zugeordnet und deine Einträge bleiben unverändert erhalten, damit du sie auf einem anderen Gerät ansehen oder beim Gerätewechsel übernehmen kannst. Das Gerät speichert eine vom Server geladene Kopie; Einträge, die nicht hochgeladen werden konnten, warten auf dem Gerät und werden erneut hochgeladen.
-- Du kannst dein **Konto jederzeit in der App löschen** (auch als Gast). Das Konto wird sofort gesperrt, und nach 7 Tagen werden deine Einträge und Kontodaten auf den Servern gelöscht.
+- Du kannst dein **Konto jederzeit in der App löschen** (auch als Gast). Deine Einträge, Mediendateien und Kontodaten auf den Servern werden sofort gelöscht.
 - Die App zeigt Werbung (Google AdMob). Personalisierte Werbung erfordert deine Einwilligung (Tracking-Erlaubnis).
 - Um zu verstehen, welche Funktionen genutzt werden, erheben wir **anonyme Nutzungsstatistiken** (App-Starts, besuchte Bildschirme, Art des gespeicherten Eintrags usw.). Sie enthalten nicht den Inhalt deiner Einträge und werden nicht mit deinem Namen oder deiner E-Mail verknüpft.
 - Wenn die App **abstürzt**, erheben wir Fehlerinformationen (Gerätemodell, System- und App-Version, Ort des Fehlers), um die Ursache zu finden. **Sie enthalten weder deine Einträge noch deinen Namen oder deine E-Mail.**
@@ -35,7 +35,7 @@ Gültig ab: 22. Oktober 2026
 - Wir erheben weder den genauen Gerätestandort (GPS) noch Kontakte o. Ä. Die Werbung (Google AdMob) schätzt jedoch anhand deiner IP-Adresse einen ungefähren Standort (Land-/Regionsebene).
 
 ## 3. Speicherdauer
-- **Kontodaten und auf dem Server gespeicherte Einträge**: bis du dein Konto löschst. Beim Löschen wird das Konto sofort gesperrt und alles nach 7 Tagen vernichtet.
+- **Kontodaten und auf dem Server gespeicherte Einträge**: bis du dein Konto löschst. Beim Löschen wird alles sofort vernichtet.
 - **Auf dem Gerät gespeicherte Einträge**: eine vom Server geladene Kopie, die verschwindet, wenn du die App löschst. Noch nicht hochgeladene Einträge bleiben nur bis zum Hochladen auf dem Gerät. Auf ein Gastkonto kannst du nach dem Löschen der App nicht mehr zugreifen; wenn auch die Einträge auf dem Server gelöscht werden sollen, lösche zuerst das Konto.
 - Müssen Daten aufgrund gesetzlicher Vorgaben aufbewahrt werden, werden sie nur für die vorgeschriebene Dauer getrennt aufbewahrt.
 
@@ -44,7 +44,7 @@ Zur Erbringung des Dienstes wird die Verarbeitung wie unten angegeben übertrage
 
 | Empfänger | Übermittelte Daten | Zweck | Land (Standort) | Speicherdauer |
 |---|---|---|---|---|
-| Supabase, Inc. | Kontodaten, Einträge (Text, Fotos, Videos, Audio) | Speicherung von Server, Datenbank und Dateien; Anmeldeverarbeitung | Australien (Region Sydney) | Bis 7 Tage nach der Kontolöschung |
+| Supabase, Inc. | Kontodaten, Einträge (Text, Fotos, Videos, Audio) | Speicherung von Server, Datenbank und Dateien; Anmeldeverarbeitung | Südkorea (Region Seoul) | Bis zur Kontolöschung (sofortige Vernichtung) |
 | Amplitude, Inc. | Nutzungsstatistiken (zufällige Kennung pro Gerät, Funktionsnutzungsereignisse, App-/Systemversion, Gerätemodell) | Erhebung und Analyse von Nutzungsstatistiken | USA | Bis der Analysezweck erreicht ist (anonyme Daten, die keine Personen identifizieren) |
 | RevenueCat, Inc. | Abo-Status und Kaufverlauf (Produkt, Kauf-/Verlängerungs-/Ablaufzeitpunkte), app-spezifische zufällige ID | Prüfung von Abo-Käufen und Verwaltung des Abo-Status | USA | Gemäß den Richtlinien von RevenueCat |
 | Functional Software, Inc. (Sentry) | Fehlerinformationen (Gerätemodell, System-/App-Version, Fehlerort) | Erhebung und Analyse von App-Fehlern und Abstürzen | USA | Etwa 90 Tage nach der Erhebung |
@@ -63,13 +63,13 @@ Das Unternehmen verkauft oder gibt deine personenbezogenen Daten nicht an Dritte
 
 ## 7. Deine Rechte und ihre Ausübung
 - **Ansehen, bearbeiten, löschen**: Du kannst Einträge direkt in der App ansehen, bearbeiten und löschen.
-- **Konto löschen**: In der App unter Einstellungen > Konto (auch als Gast). Das Konto wird sofort gesperrt, und nach 7 Tagen werden alle Einträge, Mediendateien und Kontodaten auf dem Server gelöscht. Das lässt sich nicht rückgängig machen.
+- **Konto löschen**: In der App unter Einstellungen > Konto (auch als Gast). Alle Einträge, Mediendateien und Kontodaten auf dem Server werden sofort gelöscht. Das lässt sich nicht rückgängig machen.
 - **Einwilligung widerrufen**: Wenn du das Konto löschst, endet die Erhebung deiner Einträge auf dem Server. Die Tracking-Erlaubnis kannst du in den Geräteeinstellungen widerrufen.
 - Für Anliegen, die sich in der App schwer erledigen lassen, melde dich unter den untenstehenden Kontaktdaten; wir bearbeiten sie unverzüglich.
 
 ## 8. Vernichtung personenbezogener Daten
 - Personenbezogene Daten, deren Speicherfrist abgelaufen ist oder deren Zweck erfüllt ist, werden so vernichtet, dass sie nicht wiederhergestellt werden können.
-- Einträge und Mediendateien auf dem Server werden 7 Tage nach deiner Anfrage zur Kontolöschung vom Server gelöscht.
+- Einträge und Mediendateien auf dem Server werden sofort vom Server gelöscht, wenn du dein Konto löschst.
 
 ## 9. Sicherheitsmaßnahmen
 - Daten auf dem Weg zum Server werden mit HTTPS verschlüsselt.

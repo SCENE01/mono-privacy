@@ -6,12 +6,12 @@
 
 Mono (the "Company") values your personal information and complies with applicable laws, including the Personal Information Protection Act of Korea. This policy explains what information the Mono app (iOS) handles and how.
 
-Effective date: October 22, 2026
+Effective date: October 26, 2026
 
 ## 1. At a glance
 - You can use Mono **without registering**. Even as a guest, an **anonymous account** (with no name or email) is created on the Company's servers, and your entries (text, photos, videos, audio recordings) are stored in it.
 - If you **link** Apple, Google, or Kakao, the sign-in method is attached to the same account and your entries carry over as they are, so you can view them on another device or when you switch devices. The device keeps a copy loaded from the server; entries that could not be uploaded wait on the device and are uploaded again.
-- You can **delete your account** at any time in the app (guests included). The account is locked immediately, and after 7 days your entries and account information are erased from the servers.
+- You can **delete your account** at any time in the app (guests included). Your entries, media files, and account information are erased from the servers immediately.
 - The app shows ads (Google AdMob). Personalized ads require your consent (tracking permission).
 - To understand which features are used, we collect **anonymous usage statistics** (app launches, screens visited, the type of entry saved, etc.). They do not include the content of your entries and are not linked to your name or email.
 - If the app **crashes**, we collect error information (device model, OS and app version, where the error occurred) to find the cause. **It does not include your entries, name, or email.**
@@ -35,7 +35,7 @@ Effective date: October 22, 2026
 - We do not collect precise device location (GPS), contacts, and the like. However, ads (Google AdMob) estimate an approximate location (country/region level) from your IP address.
 
 ## 3. Retention period
-- **Account information and entries stored on the server**: until you delete your account. When you delete it, the account is locked immediately and everything is destroyed after 7 days.
+- **Account information and entries stored on the server**: until you delete your account. When you delete it, everything is destroyed immediately.
 - **Entries stored on your device**: a copy loaded from the server, which disappears when you delete the app. Entries not yet uploaded stay only on the device until they are uploaded. A guest account cannot be accessed again once the app is deleted, so if you also want your entries on the server erased, delete the account first.
 - If information must be retained under law, it is kept separately only for the required period.
 
@@ -44,7 +44,7 @@ To provide the service, processing is entrusted to the parties below and informa
 
 | Recipient | Information transferred | Purpose | Country (location) | Retention |
 |---|---|---|---|---|
-| Supabase, Inc. | Account information, entries (text, photos, videos, audio) | Server, database, and file storage; sign-in processing | Australia (Sydney region) | Until 7 days after account deletion |
+| Supabase, Inc. | Account information, entries (text, photos, videos, audio) | Server, database, and file storage; sign-in processing | South Korea (Seoul region) | Until account deletion (destroyed immediately) |
 | Amplitude, Inc. | Usage statistics (random per-device ID, feature-use events, app/OS version, device model) | Collecting and analyzing usage statistics | United States | Until the analytics purpose is achieved (anonymous information that cannot identify individuals) |
 | RevenueCat, Inc. | Subscription status and purchase history (product, purchase/renewal/expiry times), app-specific random ID | Verifying subscription purchases and managing subscription status | United States | Per RevenueCat's policy |
 | Functional Software, Inc. (Sentry) | Error information (device model, OS/app version, error location) | Collecting and analyzing app errors and crashes | United States | About 90 days after collection |
@@ -63,13 +63,13 @@ The Company does not sell or provide your personal information to third parties,
 
 ## 7. Your rights and how to exercise them
 - **View, edit, delete**: you can view, edit, and delete entries directly in the app.
-- **Delete your account**: in the app under Settings > Account (guests too). The account is locked immediately and, after 7 days, all entries, media files, and account information on the server are deleted. This cannot be undone.
+- **Delete your account**: in the app under Settings > Account (guests too). All entries, media files, and account information on the server are deleted immediately. This cannot be undone.
 - **Withdrawing consent**: deleting your account stops server collection of your entries. You can withdraw tracking permission in your device settings.
 - For requests that are hard to handle in the app, contact us below and we will handle them without delay.
 
 ## 8. Destruction of personal information
 - Personal information whose retention period has ended or whose purpose has been fulfilled is destroyed in a way that cannot be recovered.
-- Entries and media files on the server are deleted 7 days after you request account deletion.
+- Entries and media files on the server are deleted immediately when you delete your account.
 
 ## 9. Security measures
 - Data in transit to the server is encrypted with HTTPS.

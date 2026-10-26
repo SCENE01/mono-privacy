@@ -6,12 +6,12 @@
 
 Mono (la «Empresa») valora tus datos personales y cumple la legislación aplicable, incluida la Ley de Protección de la Información Personal de Corea. Esta política explica qué información trata la app Mono (iOS) y cómo.
 
-Fecha de entrada en vigor: 22 de octubre de 2026
+Fecha de entrada en vigor: 26 de octubre de 2026
 
 ## 1. En resumen
 - Puedes usar Mono **sin registrarte**. Incluso como invitado se crea en los servidores de la Empresa una **cuenta anónima** (sin nombre ni correo) y tus registros (texto, fotos, videos y grabaciones de audio) se guardan en ella.
 - Si **vinculas** Apple, Google o Kakao, el método de inicio de sesión se asocia a la misma cuenta y tus registros continúan tal cual, para que puedas verlos en otro dispositivo o al cambiar de dispositivo. El dispositivo guarda una copia cargada desde el servidor; los registros que no se pudieron subir esperan en el dispositivo y se vuelven a subir.
-- Puedes **eliminar tu cuenta** en cualquier momento desde la app (también como invitado). La cuenta se bloquea de inmediato y, a los 7 días, se borran de los servidores tus registros y la información de tu cuenta.
+- Puedes **eliminar tu cuenta** en cualquier momento desde la app (también como invitado). Tus registros, archivos multimedia y la información de tu cuenta se borran de los servidores de inmediato.
 - La app muestra anuncios (Google AdMob). Los anuncios personalizados requieren tu consentimiento (permiso de seguimiento).
 - Para saber qué funciones se usan, recopilamos **estadísticas de uso anónimas** (aperturas de la app, pantallas visitadas, tipo de registro guardado, etc.). No incluyen el contenido de tus registros ni se vinculan con tu nombre o correo.
 - Si la app **se cierra de forma inesperada (fallo)**, recopilamos información de error (modelo del dispositivo, versión del sistema y de la app, lugar donde ocurrió el error) para hallar la causa. **No incluye tus registros, nombre ni correo.**
@@ -35,7 +35,7 @@ Fecha de entrada en vigor: 22 de octubre de 2026
 - No recopilamos la ubicación precisa del dispositivo (GPS), los contactos ni datos similares. Sin embargo, los anuncios (Google AdMob) estiman una ubicación aproximada (nivel de país/región) a partir de tu dirección IP.
 
 ## 3. Plazo de conservación
-- **Información de la cuenta y registros guardados en el servidor**: hasta que elimines tu cuenta. Al eliminarla, la cuenta se bloquea de inmediato y todo se destruye a los 7 días.
+- **Información de la cuenta y registros guardados en el servidor**: hasta que elimines tu cuenta. Al eliminarla, todo se destruye de inmediato.
 - **Registros guardados en tu dispositivo**: una copia cargada desde el servidor, que desaparece al eliminar la app. Los registros aún no subidos permanecen solo en el dispositivo hasta que se suben. A una cuenta de invitado no se puede volver a acceder tras eliminar la app, así que si quieres que se borren también los registros del servidor, elimina antes la cuenta.
 - Si la ley obliga a conservar cierta información, se guarda por separado solo durante el plazo exigido.
 
@@ -44,7 +44,7 @@ Para prestar el servicio, el tratamiento se encomienda a las partes que se indic
 
 | Destinatario | Información transferida | Finalidad | País (ubicación) | Conservación |
 |---|---|---|---|---|
-| Supabase, Inc. | Información de la cuenta, registros (texto, fotos, videos, audio) | Almacenamiento de servidor, base de datos y archivos; gestión del inicio de sesión | Australia (región de Sídney) | Hasta 7 días después de eliminar la cuenta |
+| Supabase, Inc. | Información de la cuenta, registros (texto, fotos, videos, audio) | Almacenamiento de servidor, base de datos y archivos; gestión del inicio de sesión | Corea del Sur (región de Seúl) | Hasta que elimines la cuenta (se destruye de inmediato) |
 | Amplitude, Inc. | Estadísticas de uso (ID aleatorio por dispositivo, eventos de uso de funciones, versión de app/sistema, modelo del dispositivo) | Recopilación y análisis de estadísticas de uso | Estados Unidos | Hasta que se cumpla el fin del análisis (información anónima que no identifica a personas) |
 | RevenueCat, Inc. | Estado de la suscripción e historial de compras (producto, fechas de compra/renovación/vencimiento), ID aleatorio específico de la app | Verificar compras de suscripción y gestionar su estado | Estados Unidos | Según la política de RevenueCat |
 | Functional Software, Inc. (Sentry) | Información de errores (modelo del dispositivo, versión del sistema/app, lugar del error) | Recopilación y análisis de errores y fallos de la app | Estados Unidos | Unos 90 días tras la recopilación |
@@ -63,13 +63,13 @@ La Empresa no vende ni cede tus datos personales a terceros, salvo que exista un
 
 ## 7. Tus derechos y cómo ejercerlos
 - **Ver, editar y eliminar**: puedes ver, editar y eliminar registros directamente en la app.
-- **Eliminar la cuenta**: en la app, en Ajustes > Cuenta (también como invitado). La cuenta se bloquea de inmediato y, a los 7 días, se eliminan del servidor todos los registros, archivos multimedia e información de la cuenta. No se puede deshacer.
+- **Eliminar la cuenta**: en la app, en Ajustes > Cuenta (también como invitado). Todos los registros, archivos multimedia e información de la cuenta en el servidor se eliminan de inmediato. No se puede deshacer.
 - **Retirar el consentimiento**: al eliminar la cuenta se detiene la recopilación de tus registros en el servidor. Puedes retirar el permiso de seguimiento en los ajustes del dispositivo.
 - Para solicitudes difíciles de gestionar en la app, escríbenos a los datos de contacto de abajo y las atenderemos sin demora.
 
 ## 8. Destrucción de los datos personales
 - Los datos personales cuyo plazo de conservación ha terminado o cuya finalidad se ha cumplido se destruyen de forma que no puedan recuperarse.
-- Los registros y archivos multimedia del servidor se eliminan del servidor 7 días después de que solicites eliminar la cuenta.
+- Los registros y archivos multimedia del servidor se eliminan del servidor de inmediato cuando eliminas la cuenta.
 
 ## 9. Medidas de seguridad
 - Los datos enviados al servidor se cifran con HTTPS.

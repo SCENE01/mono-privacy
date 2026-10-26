@@ -6,12 +6,12 @@
 
 O Mono (a "Empresa") valoriza seus dados pessoais e cumpre a legislação aplicável, incluindo a Lei de Proteção de Informações Pessoais da Coreia. Esta política explica quais informações o app Mono (iOS) trata e como.
 
-Data de vigência: 22 de outubro de 2026
+Data de vigência: 26 de outubro de 2026
 
 ## 1. Resumo
 - Você pode usar o Mono **sem se cadastrar**. Mesmo como convidado, é criada nos servidores da Empresa uma **conta anônima** (sem nome nem e-mail), e seus registros (texto, fotos, vídeos e gravações de áudio) ficam armazenados nela.
 - Se você **vincular** Apple, Google ou Kakao, o método de login é associado à mesma conta e seus registros continuam como estão, para que você possa vê-los em outro dispositivo ou ao trocar de dispositivo. O dispositivo guarda uma cópia carregada do servidor; os registros que não puderam ser enviados aguardam no dispositivo e são enviados novamente.
-- Você pode **excluir sua conta** a qualquer momento no app (inclusive como convidado). A conta é bloqueada imediatamente e, após 7 dias, seus registros e as informações da conta são apagados dos servidores.
+- Você pode **excluir sua conta** a qualquer momento no app (inclusive como convidado). Seus registros, arquivos de mídia e as informações da conta são apagados dos servidores imediatamente.
 - O app exibe anúncios (Google AdMob). Anúncios personalizados exigem seu consentimento (permissão de rastreamento).
 - Para entender quais recursos são usados, coletamos **estatísticas de uso anônimas** (aberturas do app, telas visitadas, tipo de registro salvo etc.). Elas não incluem o conteúdo dos seus registros e não são vinculadas ao seu nome ou e-mail.
 - Se o app **fechar inesperadamente (falha)**, coletamos informações de erro (modelo do dispositivo, versão do sistema e do app, local onde o erro ocorreu) para encontrar a causa. **Elas não incluem seus registros, nome ou e-mail.**
@@ -35,7 +35,7 @@ Data de vigência: 22 de outubro de 2026
 - Não coletamos a localização precisa do dispositivo (GPS), contatos e similares. No entanto, os anúncios (Google AdMob) estimam uma localização aproximada (nível de país/região) pelo endereço IP.
 
 ## 3. Prazo de retenção
-- **Informações da conta e registros armazenados no servidor**: até você excluir sua conta. Ao excluir, a conta é bloqueada imediatamente e tudo é destruído após 7 dias.
+- **Informações da conta e registros armazenados no servidor**: até você excluir sua conta. Ao excluir, tudo é destruído imediatamente.
 - **Registros armazenados no dispositivo**: uma cópia carregada do servidor, que desaparece ao excluir o app. Registros ainda não enviados ficam somente no dispositivo até serem enviados. Uma conta de convidado não pode mais ser acessada depois que o app é excluído; se quiser que os registros do servidor também sejam apagados, exclua a conta antes.
 - Se alguma informação precisar ser guardada por lei, ela é mantida separadamente apenas pelo prazo exigido.
 
@@ -44,7 +44,7 @@ Para prestar o serviço, o tratamento é confiado às partes abaixo e as informa
 
 | Destinatário | Informações transferidas | Finalidade | País (localização) | Retenção |
 |---|---|---|---|---|
-| Supabase, Inc. | Informações da conta, registros (texto, fotos, vídeos, áudio) | Armazenamento de servidor, banco de dados e arquivos; processamento de login | Austrália (região de Sydney) | Até 7 dias após a exclusão da conta |
+| Supabase, Inc. | Informações da conta, registros (texto, fotos, vídeos, áudio) | Armazenamento de servidor, banco de dados e arquivos; processamento de login | Coreia do Sul (região de Seul) | Até a exclusão da conta (destruído imediatamente) |
 | Amplitude, Inc. | Estatísticas de uso (ID aleatório por dispositivo, eventos de uso de recursos, versão do app/sistema, modelo do dispositivo) | Coleta e análise de estatísticas de uso | Estados Unidos | Até que a finalidade da análise seja alcançada (informação anônima que não identifica pessoas) |
 | RevenueCat, Inc. | Status da assinatura e histórico de compras (produto, datas de compra/renovação/expiração), ID aleatório específico do app | Verificação de compras de assinatura e gestão do status | Estados Unidos | Conforme a política da RevenueCat |
 | Functional Software, Inc. (Sentry) | Informações de erro (modelo do dispositivo, versão do sistema/app, local do erro) | Coleta e análise de erros e falhas do app | Estados Unidos | Cerca de 90 dias após a coleta |
@@ -63,13 +63,13 @@ A Empresa não vende nem fornece seus dados pessoais a terceiros, exceto quando 
 
 ## 7. Seus direitos e como exercê-los
 - **Ver, editar e excluir**: você pode ver, editar e excluir registros diretamente no app.
-- **Excluir a conta**: no app, em Ajustes > Conta (inclusive como convidado). A conta é bloqueada imediatamente e, após 7 dias, todos os registros, arquivos de mídia e informações da conta no servidor são excluídos. Isso não pode ser desfeito.
+- **Excluir a conta**: no app, em Ajustes > Conta (inclusive como convidado). Todos os registros, arquivos de mídia e informações da conta no servidor são excluídos imediatamente. Isso não pode ser desfeito.
 - **Retirar o consentimento**: excluir a conta interrompe a coleta dos seus registros no servidor. Você pode retirar a permissão de rastreamento nos ajustes do dispositivo.
 - Para solicitações difíceis de resolver no app, entre em contato pelos dados abaixo e as trataremos sem demora.
 
 ## 8. Destruição dos dados pessoais
 - Dados pessoais cujo prazo de retenção terminou ou cuja finalidade foi cumprida são destruídos de forma que não possam ser recuperados.
-- Registros e arquivos de mídia no servidor são excluídos do servidor 7 dias após você solicitar a exclusão da conta.
+- Registros e arquivos de mídia no servidor são excluídos do servidor imediatamente quando você exclui a conta.
 
 ## 9. Medidas de segurança
 - Os dados enviados ao servidor são criptografados com HTTPS.
